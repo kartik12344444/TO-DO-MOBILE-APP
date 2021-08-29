@@ -1,0 +1,305 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-left: 38%;
+  margin-top: 30px;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  height: 60px;
+  width: 320px;
+  border: 1px solid red;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px 2px rgb(228, 221, 221);
+  font-size: 22px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.two {
+  grid-column:1;
+  grid-row:2;
+  height: 60px;
+  width: 320px;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 22px;
+  box-shadow: 4px 4px 0px 2px rgb(228, 221, 221);
+  padding-left: 20px;
+  padding-top: 20px;
+  
+}
+.three {
+  grid-column: 1;
+  grid-row:3;
+  height: 60px;
+  width: 320px;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 22px;
+  box-shadow: 4px 4px 0px 2px rgb(228, 221, 221);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.four {
+  grid-column: 1;
+  grid-row: 4;
+  height: 60px;
+  width: 320px;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 22px;
+  box-shadow: 4px 4px 0px 2px rgb(228, 221, 221);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.five {
+  grid-column: 1;
+  grid-row: 5;
+  height: 60px;
+  width: 320px;
+  border: 1px solid red;
+  border-radius: 15px;
+  font-size: 22px;
+  box-shadow: 4px 4px 0px 2px rgb(228, 221, 221);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.top{
+  margin-left: 38%;
+  font-size: 50px;
+  margin-top: 50px;
+}
+.task{
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list{
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(75, 69, 69);
+  padding-right: 15px;
+}
+
+
+
+/* page 2 */
+.page2{
+  font-size: 40px;
+  margin-left: 38%;
+  margin-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.flex-container2{
+  font-family: sans-serif;
+  display: flex;
+  background-color:#FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+}
+.flex-container2> div {
+  height: 230px;
+  width: 260px;
+  box-shadow: 4px 4px 0px 2px rgb(228, 221, 221);
+  border-radius: 15px;
+  border: 2px solid red;
+  background-color: #FFFFFF;
+  margin-top: 70px;
+  margin-left: 40%;
+  padding: 20px 0px 190px 20px;
+  font-size: 22px;
+  margin-right: 35%;
+}
+
+
+
+
+/* page3 */
+.bg-image {
+  /* The image used */
+  background-image: url("./Capture2.JPG");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.subhead{
+  text-align: center;
+  color: orangered;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: 600;
+}
+.add-box{
+position: absolute;
+  top: 40%;
+  left: 35%;
+  right: 35%;
+  width: 300px;
+  height: 160px;
+  background-color: white;
+  box-shadow: 10px 10px 10px #0a0a0a29;
+  border: 1px solid #e74c3c;
+  border-radius: 10px;
+  margin: auto;
+  padding: 1rem;
+  backdrop-filter: blur(5px);
+}
+.input-box{
+  margin-left: 40px;
+  margin-top: 0rem;
+  height: 40px;
+  width: 200px;
+  box-shadow: 5px 5px 5px #0a0a0a29;
+  border: 1px solid #e74c3c;
+  border-radius: 0.5rem;
+}
+.add-btn{
+  margin-top: -20px;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  border-radius: 5rem;
+  color: white;
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+
+/* page4 */
+.bg-image {
+  /* The image used */
+  background-image: url("./Capture1.JPG");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.subhead{
+  text-align: center;
+  color: orangered;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: 600;
+}
+.add-box{
+position: absolute;
+  top: 40%;
+  left: 35%;
+  right: 35%;
+  width: 300px;
+  height: 160px;
+  background-color: white;
+  box-shadow: 10px 10px 10px #0a0a0a29;
+  border: 1px solid #e74c3c;
+  border-radius: 10px;
+  margin: auto;
+  padding: 1rem;
+  backdrop-filter: blur(5px);
+}
+.input-box{
+  margin-left: 40px;
+  margin-top: 0rem;
+  height: 40px;
+  width: 200px;
+  box-shadow: 5px 5px 5px #0a0a0a29;
+  border: 1px solid #e74c3c;
+  border-radius: 0.5rem;
+}
+.add-btn{
+  margin-top: -20px;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  border-radius: 5rem;
+  color: white;
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+
+
+/* media-quaries */
+@media screen and (min-width:360px) and (max-width:375px){
+  .top{
+    font-size: 40px;
+    margin-left: 6%;
+  } 
+  .wrapper{
+    margin-left: 6%;
+    gap: 2px;
+  }
+  .one{
+    width: 280px;
+    height: 40px;
+  }
+  .two{
+    width: 280px;
+    height: 40px;
+  }
+  .three{
+    width: 280px;
+    height: 40px;
+  }
+  .four{
+    width: 280px;
+    height: 40px;
+  }
+  .five{
+    width: 280px;
+    height: 40px;
+  }
+
+  .page2{
+    font-size: 35px;
+    margin-left: 8%;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .flex-container2{
+    font-family: sans-serif;
+    /* display: flex; */
+    background-color:#FFFFFF;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: -50%;
+    margin-top: -10%;
+  }
+  .add-box{
+    margin-left: -30%;
+    width: 280px;
+  }
+}
+
+
+
